@@ -13,22 +13,12 @@ body, html {
 }
 
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg-hero.JPG");
-  height: 70%;
-  background-position: center;
+header {
+  background-image: url('../img/bg-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-}
-  
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  background-position: left;
+  padding-bottom: 10rem;
 }
 
 .bg-black {
